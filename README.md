@@ -89,14 +89,13 @@ We use cutting-edge, military-grade censorship bypass technology:
 │                    SericaVPN Architecture                   │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│   ┌─────────────┐    ┌─────────────┐    ┌─────────────┐  │
-│   │   Client    │───▶│   Servers   │───▶│  Internet   │  │
-│   │   Apps      │    │   (XRAY)    │    │  Unblocked  │  │
-│   └─────────────┘    └─────────────┘    └─────────────┘  │
+│   ┌─────────────┐     ┌─────────────┐    ┌─────────────┐    │
+│   │   Client    │  -> |   Servers   │ -> │  Internet   │    │
+│   │   Apps      │     │   (XRAY)    │    │  Unblocked  │    │
+│   └─────────────┘     └─────────────┘    └─────────────┘    │
 │                                                             │
-│   Protocols:  VLESS  │  REALITY  │  xHTTP  │  VMess     │
-│                                                             │
-│   Encryption: TLS 1.3 │  AES-256-GCM │  ChaCha20     │
+│   Protocols:  VLESS  │  VMess  | SS │  REALITY  │  xHTTP    │
+│   Encryption: TLS 1.3 │  AES-256-GCM │  ChaCha20            │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -222,12 +221,6 @@ We built SericaVPN to solve this problem — combining cutting-edge technology w
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/SericaVPN?color=38bdf8&style=for-the-badge" alt="Stars">
-  <img src="https://img.shields.io/github/forks/SericaVPN?color=38bdf8&style=for-the-badge" alt="Forks">
-  <img src="https://img.shields.io/github/license/SericaVPN?color=38bdf8&style=for-the-badge" alt="License">
-</p>
-
-<p align="center">
-  <sub>© 2024 SericaVPN. All rights reserved.</sub><br>
+  <sub>© 2026 SericaVPN. All rights reserved.</sub><br>
   <sub>Made with ❤️ for travelers worldwide</sub>
 </p>
